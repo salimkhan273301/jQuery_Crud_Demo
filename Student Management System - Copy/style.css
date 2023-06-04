@@ -1,0 +1,286 @@
+/* #container {
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="password"] {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* CSS for the form */
+/* .form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.message.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+.message.error {
+  background-color: #f2dede;
+  color: #a94442;
+} */
+
+/* .table-container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 10px;
+} */
+
+.containers {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #0d5d48;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* table design  */
+
+/* table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+Table thead {
+  background-color: #f1f1f1;
+}
+
+Table th,
+Table td {
+  padding: 8px;
+  text-align: left;
+}
+
+Table th {
+  font-weight: bold;
+}
+
+Table td.actions {
+  white-space: nowrap;
+}
+
+Table td.actions button {
+  margin-right: 5px;
+} */
+.header h1 {
+  /* background-color: brown; */
+}
+
+/* .form-section {
+  display: none;
+  margin-bottom: 20px;
+}
+.form-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-section input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #3498db;
+}
+.btn-secondary {
+  background-color: #777;
+} */
+
+/* login form design------------------------------------------------------------ */
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+/* .form-check {
+  display: flex;
+  align-items: center;
+} */
+
+i {
+  /* Add your custom styles for the anchor tags here */
+  color: white; /* Reset the color to initial */
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+i:hover {
+  /* Add your custom styles for the hover effect here */
+  color: rgb(168, 29, 129); /* Change the color on hover */
+  /* text-decoration: none; Remove underline on hover */
+  font-weight: bold; /* Apply bold font on hover */
+  /* Add any other styles you want for the hover effect */
+  border-radius: 50%;
+}

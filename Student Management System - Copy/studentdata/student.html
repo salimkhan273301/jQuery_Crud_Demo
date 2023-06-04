@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Management</title>
+    <link rel="stylesheet" href="student.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Data Management</h2>
+      <form id="student-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter email" required />
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" required />
+        </div>
+
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input
+            class="password"
+            type="text"
+            id="password"
+            name="password"
+            required
+            placeholder="Enter password.."
+          />
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submitButton">Register</button>
+        </div>
+      </form>
+    </div>
+
+    <button id="returnButton">Return to Table</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+
+    <script src="/script.js"></script>
+    <!-- <script src="/studentdata/students_list.html"></script> -->
+
+    <script>
+      // Handle return button click
+      $("#returnButton").click(function () {
+        window.location.href = "/studentdata/students_list.html";
+      });
+    </script>
+  </body>
+</html>

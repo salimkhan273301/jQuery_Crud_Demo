@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Management</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <style>
+      .pagination {
+        margin-top: 10px;
+      }
+      .pagination button {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="header" class="header">
+      <h1 id="message"></h1>
+    </div>
+
+    <div class="table-container">
+      <h2>Student List</h2>
+
+      <!-- <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Registration Time</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table> -->
+
+      <table class="table table-bordered table-striped" id="studentTable">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Roll Number</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Data of Birth</th>
+            <th scope="col">Registration Time</th>
+            <th scope="col">Password</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="studentTableBody">
+          <!-- Table data will be dynamically generated here -->
+        </tbody>
+      </table>
+
+      <div class="pagination">
+        <button id="prevButton">Previous</button>
+        <button id="nextButton">Next</button>
+      </div>
+    </div>
+
+    <div id="editContainer" style="display: none"></div>
+
+    <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+
+    <script src="/script.js"></script>
+
+    <!-- <script>
+      window.addEventListener("load", loadStudents);
+    </script> -->
+  </body>
+</html>
+
+<!-- 
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Student Management System</h1>
+      <form id="studentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required /><br />
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required /><br />
+
+        <button type="button" id="submitButton" onclick="addStudent()">
+          Add Student
+        </button>
+      </form>
+
+      <div id="message"></div>
+
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Password</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html> -->
